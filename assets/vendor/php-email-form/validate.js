@@ -59,7 +59,8 @@
       if( response.ok ) {
         return response.text();
       } else {
-        throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
+        // throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
+        throw new Error(`There was a problem sending the email`); 
       }
     })
     .then(data => {
