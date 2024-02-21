@@ -43,7 +43,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  /* background: #fff; */
 }
 
 #preloader:before {
@@ -75,7 +75,7 @@ h6 {
 .back-to-top {
   position: fixed;
   visibility: hidden;
-  opacity: 0;
+  
   right: 15px;
   bottom: 15px;
   z-index: 996;
@@ -99,14 +99,14 @@ h6 {
 
 .back-to-top.active {
   visibility: visible;
-  opacity: 1;
+  
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #e9e8e6;
+  background: #e9e8e6; 
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -235,7 +235,7 @@ h6 {
   margin: 0;
   padding: 10px 0;
   z-index: 99;
-  opacity: 0;
+  
   visibility: hidden;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
@@ -266,7 +266,7 @@ h6 {
 }
 
 .navbar .dropdown:hover > ul {
-  opacity: 1;
+  
   top: 100%;
   visibility: visible;
 }
@@ -278,7 +278,6 @@ h6 {
 }
 
 .navbar .dropdown .dropdown:hover > ul {
-  opacity: 1;
   top: 0;
   left: 100%;
   visibility: visible;
@@ -376,9 +375,9 @@ h6 {
   margin: 10px 20px;
   padding: 10px 0;
   z-index: 99;
-  opacity: 1;
+
   visibility: visible;
-  background: #fff;
+  background: #f1efef;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -467,7 +466,7 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    
     position: absolute;
     bottom: 0;
     top: 0;
@@ -483,6 +482,7 @@ h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
 }
 
@@ -494,7 +494,7 @@ section {
 }
 
 .section-bg {
-  background-color: #e7f8f6;
+  background-color: #27cdb9;
 }
 
 .section-title {
@@ -663,7 +663,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .section-header {
+/* .testimonials .section-header {
   margin-bottom: 40px;
 }
 
@@ -741,7 +741,7 @@ section {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #34b7a7;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
@@ -807,7 +807,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -935,7 +935,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+/* .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -1053,12 +1053,12 @@ section {
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 0;
 }
 
@@ -1124,7 +1124,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+} */ 
 
 /*--------------------------------------------------------------
 # Contact
